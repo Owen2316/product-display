@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "react",
+    "env"
+  ],
+  "plugins": [
+    "transform-custom-element-classes",
+    "transform-runtime",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ],
+  "env": { }
+}
