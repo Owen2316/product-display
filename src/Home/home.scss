@@ -1,0 +1,63 @@
+html{
+  height: 100%;
+  body{
+    height: 100%;
+    margin: unset;
+    #app{
+      height: 100%;
+      .home{
+        height: 100%;
+        .nav{
+          height: 100%;
+          list-style: none;
+          padding: unset;
+          margin: unset;         
+          vertical-align: top;
+          padding-left:  1rem;     
+          padding-top:  3rem;  
+          box-sizing: border-box;          
+          //padding-right: 1rem;
+          float: left;
+          background: #2f6fcbab;
+          .navRadio{
+            //display: none;
+          }
+          input[name='navRadio']{
+            display: none;
+          }
+          label{
+            font-size: 1.1rem;
+            display: block;
+            width: 5rem;
+            height: 5rem;
+            line-height: 5rem;
+            //box-sizing: border-box;
+            overflow: hidden;
+            padding-left: 1rem;
+            border-right: 1rem solid transparent;
+          }
+          input[name='navRadio']:checked + label{
+            border-radius: 25% 0% 0% 25%;
+            outline: none;
+            background: #f6f6f6;
+            width: 5rem;
+          }
+        }
+        .content{
+          height: 100%;          
+          background: #f6f6f6;  
+          overflow:hidden;
+          iframe{
+            height: 100%;
+            width: 100%;
+            border: 0px;      
+            vertical-align: top;        
+          }    
+
+        }
+      }
+    }
+  }
+}
+
+
